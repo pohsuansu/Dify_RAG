@@ -1,0 +1,7 @@
+{
+  "name": "SynonymExpander",
+  "entry": "query_expander.py",
+  "function": "expand_query",
+  "description": "查詢擴增：加入同義詞/縮寫群組以提升語意查找",
+  "type": "query-rewriter"
+}
