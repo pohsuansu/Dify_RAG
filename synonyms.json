@@ -1,0 +1,102 @@
+{
+  "diabetes_group": [
+    "T2DM",
+    "DM",
+    "diabetes",
+    "diabetes mellitus",
+    "type 2 diabetes",
+    "type II diabetes mellitus",
+    "type 2 diabetes mellitus",
+    "第二型糖尿病",
+    "糖尿病"
+  ],
+  "type1_diabetes_group": [
+    "T1DM",
+    "type 1 diabetes",
+    "type I diabetes mellitus",
+    "type 1 diabetes mellitus",
+    "第一型糖尿病"
+  ],
+  "hypertension_group": [
+    "HTN",
+    "hypertension",
+    "high blood pressure",
+    "cvd",
+    "cardiovascular disease",
+    "血壓高",
+    "高血壓",
+    "血管疾病"
+  ],
+  "hyperlipidemia_group": [
+    "高血脂",
+    "hyperlipidemia",
+    "dyslipidemia",
+    "lipid disorder",
+    "cholesterol disorder",
+    "高膽固醇",
+    "血脂異常"
+  ],
+  "ckd_group": [
+    "CKD",
+    "chronic kidney disease",
+    "慢性腎臟病",
+    "腎功能不全"
+  ],
+  "copd_group": [
+    "COPD",
+    "chronic obstructive pulmonary disease",
+    "chronic bronchitis",
+    "emphysema",
+    "慢性阻塞性肺病",
+    "慢性支氣管炎",
+    "肺氣腫"
+  ],
+  "asthma_group": [
+    "asthma",
+    "氣喘",
+    "支氣管氣喘"
+  ],
+  "stroke_group": [
+    "stroke",
+    "中風",
+    "腦中風",
+    "腦血管阻塞",
+    "腦梗塞",
+    "腦溢血"
+  ],
+  "heart_disease_group": [
+    "heart disease",
+    "心臟病",
+    "冠心病",
+    "coronary artery disease",
+    "CAD",
+    "ischemic heart disease"
+  ],
+  "osteoporosis_group": [
+    "osteoporosis",
+    "骨質疏鬆",
+    "骨質疏鬆症"
+  ],
+  "arthritis_group": [
+    "arthritis",
+    "關節炎",
+    "類風濕性關節炎",
+    "rheumatoid arthritis",
+    "RA",
+    "骨關節炎",
+    "osteoarthritis"
+  ],
+  "cancer_group": [
+    "cancer",
+    "癌症",
+    "惡性腫瘤",
+    "腫瘤"
+  ],
+  "depression_group": [
+    "depression",
+    "憂鬱症",
+    "憂鬱",
+    "major depressive disorder",
+    "MDD"
+  ]
+}
