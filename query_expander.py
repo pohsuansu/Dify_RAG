@@ -30,3 +30,9 @@ def expand_query(query: str) -> str:
         expanded = query  # 沒找到就原樣返回
 
     return expanded
+
+# ✅ 這是 Dify 插件需要的入口函式
+async def query_expansion(inputs: dict, **kwargs) -> dict:
+    query = inputs.get("query", "")
+    expanded_query = expand_query(query)
+    return {"query": expanded_query}
