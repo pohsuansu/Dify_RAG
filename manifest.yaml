@@ -10,19 +10,3 @@ minimum_dify_version: "1.0.0"
 entry: query_expander:query_expansion
 
 
-extension:
-  entry: query_expander.py
-  function: query_expansion
-  input_schema:
-    type: object
-    properties:
-      query:
-        type: string
-        description: 使用者輸入的查詢
-    required: [query]
-  output_schema:
-    type: object
-    properties:
-      query:
-        type: string
-        description: 擴展後的新查詢
