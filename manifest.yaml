@@ -1,12 +1,27 @@
-name: dify_rag_query_expander
-version: "0.1.0"
-type: extension
-display_name: Dify RAG 查詢擴展
-description: 使用自定義查表擴展查詢內容
-author: pohsuansu
-license: MIT
-homepage: https://github.com/pohsuansu/Dify_RAG
-minimum_dify_version: "1.0.0"
-entry: query_expander:query_expansion
+meta:
+  name: dify_rag_query_expander
+  version: 0.1.0
+  type: extension
+  display_name: Dify RAG 查詢擴展
+  description: 使用自定義查表擴展查詢內容
+  author: pohsuansu
+  license: MIT
+  homepage: https://github.com/pohsuansu/Dify_RAG
+  minimum_dify_version: "1.0.0"
 
-
+extension:
+  entry: query_expander.py
+  function: query_expansion
+  input_schema:
+    type: object
+    properties:
+      query:
+        type: string
+        description: 使用者輸入的查詢
+    required: [query]
+  output_schema:
+    type: object
+    properties:
+      query:
+        type: string
+        description: 擴展後的新查詢
